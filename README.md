@@ -1,2 +1,2 @@
 # 42_libft
-My first project at École 42. The goal was to build my own C library, recoding some of the most important functions available on C Standard library among others very useful functions suggested by 42 tutors. As course goes, new functions are added to fullfill the need of my following projects.
+My first project at École 42. The goal was to build my own C library, recoding some of the most important functions available on C Standard library among others very useful functions suggested by 42 tutors. As course goes, new functions will be added to fullfill the need of my following projects.
