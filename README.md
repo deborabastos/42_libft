@@ -6,8 +6,8 @@ The goal of this project is to build my own C library. In order to accomplish it
 
 | Function | Description |
 |---|---|
-| **ft_atoi** | converts the initial portion of the string pointed to by str into integer. |
-|---|---|
+| **ft_atoi** | converts the initial portion of the string pointed to by str into integer |
+|  **ft_bzero**  | writes n zeroed bytes to the string s |
 |---|---|
 |---|---|
 |---|---|
