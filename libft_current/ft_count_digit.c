@@ -6,7 +6,7 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/05 18:24:49 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/10/28 14:50:27 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/26 16:36:38 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /*
 ** LIBRARY: N/A
 ** DESCRIPTION:
-**		The ft_count_digit() counts how many digits has the integer.
+**		The ft_count_digit() counts how many digits the integer has.
 */
 
 size_t	ft_count_digit(long long int n)

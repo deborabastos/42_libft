@@ -7,10 +7,10 @@ The goal of this project is to build my own C library. In order to accomplish it
 | Function | Description |
 |---|---|
 | **ft_atoi** | converts the initial portion of the string pointed to by str into integer |
-|  **ft_bzero**  | writes n zeroed bytes to the string s |
-|---|---|
-|---|---|
-|---|---|
+| **ft_bzero** | writes n zeroed bytes to the string s |
+| **ft_calloc** | allocates the requested memory and returns a pointer to it |
+| **ft_count_digit** | counts how many digits the integer has |
+| **ft_count_words** | counts how many words has a string |
 |---|---|
 |---|---|
 |---|---|
