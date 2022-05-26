@@ -6,7 +6,7 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/31 21:08:17 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/07/06 18:22:32 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/26 18:43:07 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /*
 ** LIBRARY: N/A
 ** DESCRIPTION:
-**		The ft_itoa() function allocates (with malloc)) and returns a string 
+**		The ft_itoa() function receives an integer and returns a string 
 **	representing the integer received as an argument. Negative numbers must be 
 **	handled.
 **		It returns the string representing the integer or NULL if the allocation 

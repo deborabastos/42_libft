@@ -30,3 +30,23 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_isspace**|  tests for white-space characters. That is: form-feed ('\f'), newline ('\n'), carriage return ('\r'), horizontal tab ('\t'), and vertical tab ('\v') |
 |**ft_isupper**|  tests if c is a upper-case letter |
 |**ft_isxdigit**| checks for a hexadecimal digits, that is, one of 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F |
+|**ft_itoa**| receives an integer and returns a string representing the integer received as an argument |
+|**ft_lstadd_back**| adds an element at the end a linked list |
+|**ft_lstadd_front**| adds an element at the beginning of a linked list |
+|**ft_lstclear**| deletes and frees the given element and every successor of that element |
+|**ft_lstdelone**| takes as a parameter an element and frees the memory of the element’s content using the function ’del’ given as a parameter and free the element |
+|**ft_lstiter**| iterates a linked list and applies the function ’f’ to the content of each element |
+|**ft_lstlast**|  returns the last element of the linked list |
+|**ft_lstmap**| iterates the linked list and applies the function ’f’ to the content of each element. Creates a new list resulting of the successive applications of the function ’f’ |
+|**ft_lstnew**| creates a new linked list with the given element |
+|**ft_lstsize**| counts the number of elements in a linked list |
+|**ft_memccpy**| copies no more than n bytes from memory area src to memory area dst, stopping when the character c is found |
+|**ft_memchr**| scans the initial n bytes of the memory area pointed to by s for the first instance of c |
+|**ft_memcmp**| compares the first n bytes of the memory areas s1 and s2. It returns an integer less than, equal to, or greater than zero if the first n bytes of s1 is found, respectively, to be less than, to match, or be greater than the first n bytes of s2 |
+|**ft_memcpy**| copies n bytes from memory area src to memory area dst |
+|**ft_memmove**| copies len bytes from memory area src to memory area dst. The memory areas may overlap: copying takes place as though the bytes in src are first copied into a temporary array that does not overlap src or dst, and the bytes are then copied from the temporary array to dst |
+|**ft_memset**| fills the first len bytes of the memory area pointed to by b with the constant byte c |
+|**ft_pow**| returns the value of a power applied to a number |
+
+
+...TO BE CONTINUED...

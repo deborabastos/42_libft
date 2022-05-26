@@ -6,7 +6,7 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 16:15:29 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/06/29 11:18:53 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/26 19:07:05 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /*
 ** LIBRARY: <strings.h>
 ** DESCRIPTION:
-**		The memcmp() function compares the first n bytes (each interpreted as 
+**		The memcmp() function compares the first n bytes (interpreted as 
 **	unsigned char) of the memory areas s1 and s2.
 **		It returns an integer less than, equal to, or greater than zero if the 
 **	first n bytes of s1 is found, respectively, to be less than, to match, or be 
