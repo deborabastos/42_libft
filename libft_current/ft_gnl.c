@@ -6,11 +6,17 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/11 13:35:15 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/09/18 18:46:02 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/26 16:42:20 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** LIBRARY: NA
+** DESCRIPTION:
+** 		The ft_gnl() function reads every line of a file	
+*/
 
 static int	is_line(char *backup)
 {
