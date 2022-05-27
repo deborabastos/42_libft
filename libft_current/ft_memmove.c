@@ -6,7 +6,7 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/27 16:12:40 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/06/29 11:26:11 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/27 18:12:35 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,6 @@
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	size_t	i;
-
-	i = 0;
 	if (!dst && !src)
 		return (0);
 	if (src < dst)

@@ -27,6 +27,9 @@ all:		$(NAME)
 $(NAME):	$(OBJS)
 			@ar rcs $(NAME) $(OBJS)
 
+run:
+			make && gcc main.c libft.a && ./a.out && make fclean && rm -r a.out
+
 clean:
 			@$(RM) $(OBJS)
 
