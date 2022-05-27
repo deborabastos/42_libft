@@ -24,13 +24,14 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_isupper**|  tests if a given character is a upper-case letter |
 |**ft_isxdigit**| checks for a hexadecimal digits, that is, one of 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F |
 
-
 ## To Functions
 | Function | Description |
 |---|---|
 |**ft_atoi**| converts the initial portion of the string pointed to by str into integer |
 |**ft_itoa**| receives an integer and returns a string representing the integer received as an argument |
-
+|**ft_utoa_base**| converts base of a unisgned integer |
+|**ft_tolower**| converts uppercase letters to lowercase |
+|**ft_toupper**|  converts lowercase letters to uppercase |
 
 ## Memory functions
 | Function | Description |
@@ -44,7 +45,6 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_memmove**| copies len bytes from memory area src to memory area dst. The memory areas may overlap: copying takes place as though the bytes in src are first copied into a temporary array that does not overlap src or dst, and the bytes are then copied from the temporary array to dst |
 |**ft_memset**| fills the first len bytes of the memory area pointed to by b with the constant byte c |
 
-
 ## Math functions
 | Function | Description |
 |---|---|
@@ -53,20 +53,21 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_factorial**| returns the result of a factorial operation based on the number given as a parameter |
 |**ft_fibonacci**| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
 
-
-
 ## Digit Functions
 | Function | Description |
 |---|---|
 |**ft_div_mod**| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
+|**ft_ultimate_div_mod**| divides parameters a by b. The result of this division is stored in the int pointed by a. The remainder of the division is stored in the int pointed by b |
 |**ft_count_digit**| counts how many digits the integer has |
-
+|**ft_swap**|  swaps the value of two integers |
 
 ## String Functions
 | Function | Description |
 |---|---|
 |**ft_split**| splits a string using a given character as delimiter |
 |**ft_strcapitalize**| capitalizes the first letter of each word and transforms all other letters to lowercase |
+|**ft_strupcase**| converts a string to uppercase |
+|**ft_strlowcase**| converts a string to lowercase |
 |**ft_strcat**| appends one string to another |
 |**ft_strchr**| finds the first occurrence of a given character in the string |
 |**ft_strcmp**| compares two strings |
@@ -76,17 +77,18 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_strlcat**| appends one string to another limited to a given lenght. It returns the combined length of both |
 |**ft_strlcpy**| copies one string to another limited to a given lenght |
 |**ft_strlen**| returns the length of the string |
-|**ft_strlowcase**| converts a string to lowercase |
 |**ft_strmapi**| applies the function ’f’ to each character of the string |
 |**ft_strncat**| appends most of n bytes from src string to another |
 |**ft_strncmp**| compares the first n bytes of two strings |
 |**ft_strncpy**| copies n bytes of a string to another |
-|**ft_strnstr**|  |
-
+|**ft_strnstr**| locates a substring in a string limited to n bytes |
+|**ft_strrchr**| returns a pointer to the last occurrence of a character in a string |
+|**ft_strrev**| reverses a string |
+|**ft_strstr**| locates a substring in a string |
+|**ft_strtrim**| trim beginning and end of string with the specified characters |
+|**ft_substr**| gets a substring from a string |
 |**ft_count_words**| counts how many words has a string |
 |**ft_gnl**| reads every line of a file |
-
-
 
 ## Put Functions
 | Function | Description |
@@ -102,7 +104,6 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_putstr_fd**| outputs a string to a given file descriptor |
 |**ft_putstr**| outputs a string to the standard output |
 
-
 ## Linked List functions
 | Function | Description |
 |---|---|
@@ -115,10 +116,6 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_lstmap**| iterates the linked list and applies the function ’f’ to the content of each element. Creates a new list resulting of the successive applications of the function ’f’ |
 |**ft_lstnew**| creates a new linked list with the given element |
 |**ft_lstsize**| counts the number of elements in a linked list |
-
-
-
-...TO BE CONTINUED...
 
 
 ## Makefile

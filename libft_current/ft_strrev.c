@@ -6,7 +6,7 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/07 15:16:00 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/07/07 15:30:09 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/27 14:39:53 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /*
 ** LIBRARY: N/A
 ** DESCRIPTION:
-**		The ft_utoa_base() function 
+**		The ft_strrev() function reverses a string. 
 */
 
 char	*ft_strrev(char *str)
