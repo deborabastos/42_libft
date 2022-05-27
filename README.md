@@ -4,7 +4,7 @@ This is my first project as a Cadet in [42 School São Paulo](https://www.42sp.o
 
 The goal of this project is to build my own C library. In order to accomplish it,  I'll re-code some of the most important functions available on C Standard library among other useful functions suggested by 42 staff. As course goes, new functions will be added to fullfill the needs of my following projects.
 
-## IS Functions
+## Is Functions
 
 | Function | Description |
 |---|---|
@@ -25,7 +25,7 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_isxdigit**| checks for a hexadecimal digits, that is, one of 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F |
 
 
-## TO Functions
+## To Functions
 | Function | Description |
 |---|---|
 |**ft_atoi**| converts the initial portion of the string pointed to by str into integer |
@@ -53,19 +53,6 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_fibonacci**| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
 
 
-## Linked list functions
-| Function | Description |
-|---|---|
-|**ft_lstadd_back**| adds an element at the end a linked list |
-|**ft_lstadd_front**| adds an element at the beginning of a linked list |
-|**ft_lstclear**| deletes and frees the given element and every successor of that element |
-|**ft_lstdelone**| takes as a parameter an element and frees the memory of the element’s content using the function ’del’ given as a parameter and free the element |
-|**ft_lstiter**| iterates a linked list and applies the function ’f’ to the content of each element |
-|**ft_lstlast**|  returns the last element of the linked list |
-|**ft_lstmap**| iterates the linked list and applies the function ’f’ to the content of each element. Creates a new list resulting of the successive applications of the function ’f’ |
-|**ft_lstnew**| creates a new linked list with the given element |
-|**ft_lstsize**| counts the number of elements in a linked list |
-
 
 ## Digit Functions
 | Function | Description |
@@ -79,6 +66,36 @@ The goal of this project is to build my own C library. In order to accomplish it
 |---|---|
 |**ft_count_words**| counts how many words has a string |
 |**ft_gnl**| reads every line of a file |
+
+
+
+## Put Functions
+| Function | Description |
+|---|---|
+|**ft_putchar_fd**| outputs a character to the given file descriptor |
+|**ft_putchar**| writes a character to the standard output |
+|**ft_putendl_fd**| outputs a string to a given file descriptor, followed by a newline |
+|**ft_putendl**| outputs a string to the standard output, followed by a newline |
+|**ft_putlnbr**| outputs a unsigned integer to the standard output |
+|**ft_putnbr_fd**| outputs a integer to a given file descriptor |
+|**ft_putnbr**| outputs a integer to the standard output |
+|**ft_putnstr**| outputs a string to the standard output limited to n chars |
+|**ft_putstr_fd**| outputs a string to a given file descriptor |
+|**ft_putstr**| outputs a string to the standard output |
+
+
+## Linked List functions
+| Function | Description |
+|---|---|
+|**ft_lstadd_back**| adds an element at the end a linked list |
+|**ft_lstadd_front**| adds an element at the beginning of a linked list |
+|**ft_lstclear**| deletes and frees the given element and every successor of that element |
+|**ft_lstdelone**| takes as a parameter an element and frees the memory of the element’s content using the function ’del’ given as a parameter and free the element |
+|**ft_lstiter**| iterates a linked list and applies the function ’f’ to the content of each element |
+|**ft_lstlast**|  returns the last element of the linked list |
+|**ft_lstmap**| iterates the linked list and applies the function ’f’ to the content of each element. Creates a new list resulting of the successive applications of the function ’f’ |
+|**ft_lstnew**| creates a new linked list with the given element |
+|**ft_lstsize**| counts the number of elements in a linked list |
 
 
 
