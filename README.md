@@ -27,7 +27,7 @@ The goal of this project is to build my own C library. In order to accomplish it
 ## To Functions
 | Function | Description |
 |---|---|
-|**ft_atoi**| converts the initial portion of the string pointed to by str into integer |
+|{[**ft_atoi**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_atoi.c)}| converts the initial portion of the string pointed to by str into integer |
 |**ft_itoa**| receives an integer and returns a string representing the integer received as an argument |
 |**ft_utoa_base**| converts base of a unisgned integer |
 |**ft_tolower**| converts uppercase letters to lowercase |
