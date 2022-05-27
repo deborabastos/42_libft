@@ -25,26 +25,28 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_isxdigit**| checks for a hexadecimal digits, that is, one of 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F |
 
 
+## TO Functions
 | Function | Description |
 |---|---|
 |**ft_atoi**| converts the initial portion of the string pointed to by str into integer |
-|**ft_bzero**| writes n zeroed bytes to the string s |
-|**ft_calloc**| allocates the requested memory and returns a pointer to it |
-|**ft_count_digit**| counts how many digits the integer has |
-|**ft_count_words**| counts how many words has a string |
-|**ft_div_mod**| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
-|**ft_factorial**| returns the result of a factorial operation based on the number given as a parameter |
-|**ft_fibonacci**| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
-|**ft_gnl**| reads every line of a file |
-
-
 |**ft_itoa**| receives an integer and returns a string representing the integer received as an argument |
 
+
+## Digit Functions
+|**ft_div_mod**| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
+|**ft_count_digit**| counts how many digits the integer has |
+
+
+## String Functions
+|**ft_count_words**| counts how many words has a string |
+|**ft_gnl**| reads every line of a file |
 
 
 ## Memory functions
 | Function | Description |
 |---|---|
+|**ft_bzero**| writes n zeroed bytes to the string s |
+|**ft_calloc**| allocates the requested memory and returns a pointer to it |
 |**ft_memccpy**| copies no more than n bytes from memory area src to memory area dst, stopping when the character c is found |
 |**ft_memchr**| scans the initial n bytes of the memory area pointed to by s for the first instance of c |
 |**ft_memcmp**| compares the first n bytes of the memory areas s1 and s2. It returns an integer less than, equal to, or greater than zero if the first n bytes of s1 is found, respectively, to be less than, to match, or be greater than the first n bytes of s2 |
@@ -52,10 +54,14 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_memmove**| copies len bytes from memory area src to memory area dst. The memory areas may overlap: copying takes place as though the bytes in src are first copied into a temporary array that does not overlap src or dst, and the bytes are then copied from the temporary array to dst |
 |**ft_memset**| fills the first len bytes of the memory area pointed to by b with the constant byte c |
 
+
 ## Math functions
 | Function | Description |
 |---|---|
 |**ft_pow**| returns the value of a power applied to a number |
+|**ft_factorial**| returns the result of a factorial operation based on the number given as a parameter |
+|**ft_fibonacci**| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
+
 
 ## Linked list functions
 | Function | Description |
