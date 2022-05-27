@@ -6,7 +6,7 @@
 /*   By: dalves-p <dalves-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/06 20:25:35 by dalves-p          #+#    #+#             */
-/*   Updated: 2021/06/30 10:22:34 by dalves-p         ###   ########.fr       */
+/*   Updated: 2022/05/27 12:56:47 by dalves-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /*
 ** LIBRARY: N/A
 ** DESCRIPTION:
-** 		The ft_strcapitalize() function capitalizes the first letter fo each word
+** 		The ft_strcapitalize() function capitalizes the first letter of each word
 **	and transforms all other letters to lowercase.
 */
 

@@ -49,6 +49,7 @@ The goal of this project is to build my own C library. In order to accomplish it
 | Function | Description |
 |---|---|
 |**ft_pow**| returns the value of a power applied to a number |
+|**ft_sqrt**|  computes the square root of a number |
 |**ft_factorial**| returns the result of a factorial operation based on the number given as a parameter |
 |**ft_fibonacci**| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
 
@@ -64,6 +65,24 @@ The goal of this project is to build my own C library. In order to accomplish it
 ## String Functions
 | Function | Description |
 |---|---|
+|**ft_split**| splits a string using a given character as delimiter |
+|**ft_strcapitalize**| capitalizes the first letter of each word and transforms all other letters to lowercase |
+|**ft_strcat**| appends one string to another |
+|**ft_strchr**| finds the first occurrence of a given character in the string |
+|**ft_strcmp**| compares two strings |
+|**ft_strcpy**| copies one string to another |
+|**ft_strdup**| duplicates a string |
+|**ft_strjoin**| concatenates two strings and returns a new one |
+|**ft_strlcat**| appends one string to another limited to a given lenght. It returns the combined length of both |
+|**ft_strlcpy**| copies one string to another limited to a given lenght |
+|**ft_strlen**| returns the length of the string |
+|**ft_strlowcase**| converts a string to lowercase |
+|**ft_strmapi**| applies the function ’f’ to each character of the string |
+|**ft_strncat**| appends most of n bytes from src string to another |
+|**ft_strncmp**| compares the first n bytes of two strings |
+|**ft_strncpy**| copies n bytes of a string to another |
+|**ft_strnstr**|  |
+
 |**ft_count_words**| counts how many words has a string |
 |**ft_gnl**| reads every line of a file |
 
