@@ -4,8 +4,7 @@ This is my first project as a Cadet in [42 School São Paulo](https://www.42sp.o
 
 The goal of this project is to build my own C library. In order to accomplish it,  I'll re-code some of the most important functions available on C Standard library among other useful functions suggested by 42 staff. As course goes, new functions will be added to fullfill the needs of my following projects.
 
-## Is Functions
-
+## Is functions
 | Function | Description |
 |---|---|
 |[**ft_isalnum**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_isalnum.c)| checks if a given character is alphabetical or numerical |
@@ -24,44 +23,7 @@ The goal of this project is to build my own C library. In order to accomplish it
 |[**ft_isupper**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_isupper.c)|  tests if a given character is a upper-case letter |
 |[**ft_isxdigit**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_isxdigit.c)| checks for a hexadecimal digits, that is, one of 0 1 2 3 4 5 6 7 8 9 a b c d e f A B C D E F |
 
-## To Functions
-| Function | Description |
-|---|---|
-|[**ft_atoi**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_atoi.c)| converts the initial portion of the string pointed to by str into integer |
-|[**ft_itoa**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_itoa.c)| receives an integer and returns a string representing the integer received as an argument |
-|[**ft_utoa_base**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_utoa_base.c)| converts base of a unisgned integer |
-|[**ft_tolower**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_tolower.c)| converts uppercase letters to lowercase |
-|[**ft_toupper**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_toupper.c)|  converts lowercase letters to uppercase |
-
-## Memory functions
-| Function | Description |
-|---|---|
-|[**ft_bzero**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_bzero.c)| writes n zeroed bytes to the string s |
-|[**ft_calloc**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_calloc.c)| allocates the requested memory and returns a pointer to it |
-|[**ft_memccpy**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memccpy.c)| copies no more than n bytes from memory area src to memory area dst, stopping when the character c is found |
-|[**ft_memchr**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memchr.c)| scans the initial n bytes of the memory area pointed to by s for the first instance of c |
-|[**ft_memcmp**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memcmp.c)| compares the first n bytes of the memory areas s1 and s2. It returns an integer less than, equal to, or greater than zero if the first n bytes of s1 is found, respectively, to be less than, to match, or be greater than the first n bytes of s2 |
-|[**ft_memcpy**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memcpy.c)| copies n bytes from memory area src to memory area dst |
-|[**ft_memmove**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memmove.c)| copies len bytes from memory area src to memory area dst. The memory areas may overlap: copying takes place as though the bytes in src are first copied into a temporary array that does not overlap src or dst, and the bytes are then copied from the temporary array to dst |
-|[**ft_memset**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memset.c)| fills the first len bytes of the memory area pointed to by b with the constant byte c |
-
-## Math functions
-| Function | Description |
-|---|---|
-|[**ft_pow**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_pow.c)| returns the value of a power applied to a number |
-|[**ft_sqrt**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_sqrt.c)|  computes the square root of a number |
-|[**ft_factorial**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_factorial.c)| returns the result of a factorial operation based on the number given as a parameter |
-|[**ft_fibonacci**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_fibonacci.c)| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
-
-## Digit Functions
-| Function | Description |
-|---|---|
-|[**ft_div_mod**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_div_mod.c)| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
-|[**ft_ultimate_div_mod**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_ultimate_div_mod.c)| divides parameters a by b. The result of this division is stored in the int pointed by a. The remainder of the division is stored in the int pointed by b |
-|[**ft_count_digit**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_count_digit.c)| counts how many digits the integer has |
-|[**ft_swap**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_swap.c)|  swaps the value of two integers |
-
-## String Functions
+## String functions
 | Function | Description |
 |---|---|
 |[**ft_split**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_split.c)| splits a string using a given character as delimiter |
@@ -90,7 +52,7 @@ The goal of this project is to build my own C library. In order to accomplish it
 |[**ft_count_words**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_count_words.c)| counts how many words has a string |
 |[**ft_gnl**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_gnl.c)| reads every line of a file |
 
-## Put Functions
+## Put functions
 | Function | Description |
 |---|---|
 |[**ft_putchar_fd**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_putchar_fd.c)| outputs a character to the given file descriptor |
@@ -104,6 +66,43 @@ The goal of this project is to build my own C library. In order to accomplish it
 |[**ft_putstr_fd**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_putstr_fd.c)| outputs a string to a given file descriptor |
 |[**ft_putstr**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_putstr.c)| outputs a string to the standard output |
 
+## Memory functions
+| Function | Description |
+|---|---|
+|[**ft_bzero**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_bzero.c)| writes n zeroed bytes to the string s |
+|[**ft_calloc**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_calloc.c)| allocates the requested memory and returns a pointer to it |
+|[**ft_memccpy**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memccpy.c)| copies no more than n bytes from memory area src to memory area dst, stopping when the character c is found |
+|[**ft_memchr**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memchr.c)| scans the initial n bytes of the memory area pointed to by s for the first instance of c |
+|[**ft_memcmp**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memcmp.c)| compares the first n bytes of the memory areas s1 and s2. It returns an integer less than, equal to, or greater than zero if the first n bytes of s1 is found, respectively, to be less than, to match, or be greater than the first n bytes of s2 |
+|[**ft_memcpy**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memcpy.c)| copies n bytes from memory area src to memory area dst |
+|[**ft_memmove**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memmove.c)| copies len bytes from memory area src to memory area dst. The memory areas may overlap: copying takes place as though the bytes in src are first copied into a temporary array that does not overlap src or dst, and the bytes are then copied from the temporary array to dst |
+|[**ft_memset**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_memset.c)| fills the first len bytes of the memory area pointed to by b with the constant byte c |
+
+## To functions
+| Function | Description |
+|---|---|
+|[**ft_atoi**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_atoi.c)| converts the initial portion of the string pointed to by str into integer |
+|[**ft_itoa**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_itoa.c)| receives an integer and returns a string representing the integer received as an argument |
+|[**ft_utoa_base**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_utoa_base.c)| converts base of a unisgned integer |
+|[**ft_tolower**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_tolower.c)| converts uppercase letters to lowercase |
+|[**ft_toupper**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_toupper.c)|  converts lowercase letters to uppercase |
+
+## Digit functions
+| Function | Description |
+|---|---|
+|[**ft_div_mod**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_div_mod.c)| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
+|[**ft_ultimate_div_mod**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_ultimate_div_mod.c)| divides parameters a by b. The result of this division is stored in the int pointed by a. The remainder of the division is stored in the int pointed by b |
+|[**ft_count_digit**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_count_digit.c)| counts how many digits the integer has |
+|[**ft_swap**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_swap.c)|  swaps the value of two integers |
+
+## Math functions
+| Function | Description |
+|---|---|
+|[**ft_pow**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_pow.c)| returns the value of a power applied to a number |
+|[**ft_sqrt**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_sqrt.c)|  computes the square root of a number |
+|[**ft_factorial**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_factorial.c)| returns the result of a factorial operation based on the number given as a parameter |
+|[**ft_fibonacci**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_fibonacci.c)| returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
+
 ## Linked List functions
 | Function | Description |
 |---|---|
@@ -116,7 +115,6 @@ The goal of this project is to build my own C library. In order to accomplish it
 |[**ft_lstmap**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_lstmap.c)| iterates the linked list and applies the function ’f’ to the content of each element. Creates a new list resulting of the successive applications of the function ’f’ |
 |[**ft_lstnew**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_lstnew.c)| creates a new linked list with the given element |
 |[**ft_lstsize**](https://github.com/deborabastos/42_libft/blob/master/libft_current/ft_lstsize.c)| counts the number of elements in a linked list |
-
 
 ## Makefile
 
