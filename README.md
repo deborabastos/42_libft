@@ -32,16 +32,6 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_itoa**| receives an integer and returns a string representing the integer received as an argument |
 
 
-## Digit Functions
-|**ft_div_mod**| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
-|**ft_count_digit**| counts how many digits the integer has |
-
-
-## String Functions
-|**ft_count_words**| counts how many words has a string |
-|**ft_gnl**| reads every line of a file |
-
-
 ## Memory functions
 | Function | Description |
 |---|---|
@@ -77,6 +67,18 @@ The goal of this project is to build my own C library. In order to accomplish it
 |**ft_lstsize**| counts the number of elements in a linked list |
 
 
+## Digit Functions
+| Function | Description |
+|---|---|
+|**ft_div_mod**| divides parameters a by b and stores the result in the int pointed by div. It also stores the remainder of the division of a by b in the int pointed by mod |
+|**ft_count_digit**| counts how many digits the integer has |
+
+
+## String Functions
+| Function | Description |
+|---|---|
+|**ft_count_words**| counts how many words has a string |
+|**ft_gnl**| reads every line of a file |
 
 
 
